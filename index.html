@@ -5,6 +5,7 @@
         <title>Maddison's Game Review Website</title>
     </head>
     <body>
+        <img src="images/images.jpg" width="500" alt="video game themed banner" />
         <h1>Welcome to my game review page!</h1>
         <p>This is where I post reviews about games from different <strong>genres!</strong></p>
         <p>Note: All reviews are my personal opinion not taken from the internet</p>
@@ -12,14 +13,22 @@
         <p><a href="Adventure.html">Adventure</a></p>
         <p><a href="Survival.html">Survival</a></p>
         <p><a href="Arcade.html">Arcade</a></p>
-    
+
         <h2>Please tell us what games you want to see</h2>
         <form>
-        <p><label for="user_games">Enter the name of the game you want to see reviewed:</label>
-            <input type="text" id="user_games"></p>
-        <p><label for="user_games_genre">Enter the genre of the game</label>
-            <input type="text" id="user_games_genre"></p>
-        <p> <input type="submit" value="submit"></p>
-    </form>
-   </body>
+            <p>
+                <label for="user_games">Enter the name of the game you want to see reviewed:</label>
+                <input type="text" id="user_games" />
+            </p>
+            <p>
+                <label for="user_games_genre">Enter the genre of the game:</label>
+                <input type="text" id="user_games_genre" />
+            </p>
+            <p><label type="bigtext">What do you think of your chosen game?</label></p>
+            <p><textarea id="bigtext" rows="10" cols="25"></textarea></p>
+            <p><input type="submit" value="submit" /></p>
+            <p>
+
+        </form>
+    </body>
 </html>
