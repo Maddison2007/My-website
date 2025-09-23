@@ -4,6 +4,7 @@ h1 {
     text-transform: capitalize;
     text-decoration: underline;
     font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -12,9 +13,12 @@ h2 {
 
 p {
     line-height: 1.1;
+    font-family:ubuntu;
 }
 
 .note {
     text-decoration: underline;
     text-transform: uppercase;
 }
+
+.form{font-style:italic}
