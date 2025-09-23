@@ -1,22 +1,20 @@
-h1{
+h1 {
     color: #b30000;
-    text-align:center;
-    text-transform:capitalize;
-    text-decoration:underline;
-    font-style:italic
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-style: italic;
 }
 
-
-h2{
-    color: #b30000
+h2 {
+    color: #b30000;
 }
 
-p{
-   line-height: 1.1 
-    
+p {
+    line-height: 1.1;
 }
 
-.note{
-    text-decoration:underline;
-    text-transform:uppercase
+.note {
+    text-decoration: underline;
+    text-transform: uppercase;
 }
