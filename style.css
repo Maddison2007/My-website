@@ -21,12 +21,17 @@ h1 {
 
 h2 {
     color: white;
+    text-align: center;
 }
 
 p {
     line-height: 1.1;
     font-family: ubuntu;
 }
+
+ol {font-family: ubuntu; }
+
+
 
 .note {
     text-decoration: underline;
