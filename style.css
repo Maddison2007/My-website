@@ -1,9 +1,12 @@
-*,*::before,
+*,
+*::before,
 *::after {
     box-sizing: border-box;
 }
 
-body {background-image: url('images/banner.jpg');}
+body {
+    background-image: url("images/banner.jpg");
+}
 
 h1 {
     color: #ffffff;
@@ -16,7 +19,7 @@ h1 {
     border-style: solid;
     border-color: black;
     border-radius: 8px;
-    padding: 16px;  
+    padding: 16px;
 }
 
 h2 {
@@ -29,9 +32,9 @@ p {
     font-family: ubuntu;
 }
 
-ol {font-family: ubuntu; }
-
-
+ol {
+    font-family: ubuntu;
+}
 
 .note {
     text-decoration: underline;
@@ -52,4 +55,18 @@ ol {font-family: ubuntu; }
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
+}
+
+.navbar {
+    text-align: centre;
+    width: 100%;
+    
+}
+
+.navbutton {
+    border: 2px solid #444;
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
 }
