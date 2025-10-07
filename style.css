@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("images/banner.jpg");
+    background-color: black
 }
 
 h1 {
@@ -62,11 +62,36 @@ ol {
     width: 100%;
     
 }
-
+/*default*/
 .navbutton {
     border: 2px solid #444;
+    vertical-align: center;
+    
+    
+    padding: 10px;
+}
+/*mobile phone*/
+.navbutton {
+    width:100%;
+    margin:-2px;
+    
+}
+
+/*tablet*/
+@media (min-width: 830px){
+    .navbutton{
     display: inline-block;
+    width:25%;
+    margin:-4px;
+    
+    }
+}
+
+/*large desktop*/
+@media (min-width: 1200px){
+    .navbutton{
+    display: inline-block; 
     width: 150px;
     margin: 10px;
-    padding: 10px;
+    }
 }
